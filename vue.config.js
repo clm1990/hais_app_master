@@ -3,7 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: true,
   lintOnSave: false,
   devServer: {
-    proxy: "http://172.16.0.111:8080"
+    proxy: "http://172.16.0.111:8080",
   },
 
 })
